@@ -1,0 +1,1 @@
+wget --page-requisites --convert-links --adjust-extension --span-hosts --restrict-file-names=windows --no-clobber --domains=austintexas.gov --no-parent https://www.austintexas.gov/department/peoples-gallery

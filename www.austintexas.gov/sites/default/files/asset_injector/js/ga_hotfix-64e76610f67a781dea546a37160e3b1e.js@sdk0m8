@@ -1,0 +1,13 @@
+(function() {
+	var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+	sz.src = '//www.googletagmanager.com/gtag/js?id=G-4GCT8V5REN';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/* ga_hotfix
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4GCT8V5REN"></script>*/
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4GCT8V5REN');
